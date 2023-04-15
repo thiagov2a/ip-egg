@@ -1,0 +1,20 @@
+Algoritmo ceroParImpar
+	
+	Definir num,resultado Como Entero
+	
+	Escribir Sin Saltar "Ingresar un numero"
+	leer num
+	
+	resultado = num MOD 2
+	
+	Si (num = 0) Entonces
+		Escribir "El numero ingresado no es par ni impar"
+	SiNo
+		Si (resultado = 0) Entonces
+			Escribir "El numero ingresado es par"
+		SiNo
+			escribir "El numero ingresado es impar"
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo

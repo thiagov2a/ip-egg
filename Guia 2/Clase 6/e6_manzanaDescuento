@@ -1,0 +1,26 @@
+Algoritmo manzanaDescuento
+	
+	Definir kilo,precio Como Real
+	
+	Escribir "¿Cuántos kilos de manzana quisiera llevar?"
+	Leer kilo
+	
+	precio = kilo * 500
+	
+	Si (kilo < 2) Entonces
+		Escribir "El precio es de ", precio
+	SiNo
+		Si (kilo > 2 Y kilo <= 5) Entonces
+			Escribir "El precio es de ",precio-(precio*0.10)
+		SiNo
+			Si (kilo > 5 Y kilo <= 10) Entonces
+				escribir "El precio es de ",precio-(precio*0.15)
+			SiNo
+				Si kilo>10 Entonces
+					escribir "El precio es de ",precio-(precio*0.20)
+				 
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+FinAlgoritmo
